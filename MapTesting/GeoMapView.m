@@ -8,7 +8,7 @@
 @implementation GeoMapView
 @synthesize  left, right, top, bottom,zoomMax,zoomMin;
 
-
+//
 - (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer
 {
     

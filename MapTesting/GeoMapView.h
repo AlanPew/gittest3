@@ -9,7 +9,7 @@
     MKCoordinateRegion cordRegion;
     CLLocationCoordinate2D oldcenter;
     double left;
-    double right;
+    double right; 
     double top;
     double bottom;
     double zoomMax;
