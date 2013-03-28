@@ -21,7 +21,7 @@
      NSLog(@"scrollview x:%f width %f %f y:%f height %f %f",scrollView.contentOffset.x,scrollView.contentSize.width,xratio,scrollView.contentOffset.y,scrollView.contentSize.height,yratio);
     //  [self checkScroll];
     [[NSNotificationCenter defaultCenter] postNotificationName:@"scrollmoved" object:scrollView];
-    NSLog(@"-(void)scrollViewDidScroll:(UIScrollView *)scrollView");
+    NSLog(@"-(void)scrollViewDidScroll:(UIScrollView *)scrollView ");
     
 }
 
