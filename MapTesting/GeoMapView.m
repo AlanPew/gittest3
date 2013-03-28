@@ -22,6 +22,7 @@
     //  [self checkScroll];
     [[NSNotificationCenter defaultCenter] postNotificationName:@"scrollmoved" object:scrollView];
     NSLog(@"-(void)scrollViewDidScroll:(UIScrollView *)scrollView ");
+    //test shit
     
 }
 
