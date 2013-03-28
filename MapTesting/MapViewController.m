@@ -37,7 +37,7 @@
     float xratio=(scrollView.contentOffset.x/scrollView.contentSize.width);
     float yratio=(scrollView.contentOffset.y/scrollView.contentSize.height);
     
-    self.label.text=[NSString stringWithFormat:@"scrollview x:%.0f width %.0f %.4f y:%.2f height %.0f %.4f",scrollView.contentOffset.x,scrollView.contentSize.width,xratio,scrollView.contentOffset.y,scrollView.contentSize.height,yratio];
+    self.label.text=[NSString stringWithFormat:@"scrollview x:%.0f width %.0f %.4f y:%.2f height %.0f %.4f",scrollView.contentOffset.x,scrollView.contentSize.width,xratio,scrollView.contentOffset.y,scrollView.contentSize.height,yratio]; 
     
 }
 
